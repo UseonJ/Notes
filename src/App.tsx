@@ -1,16 +1,11 @@
 import './App.css'
+import { MainPage } from './features/Main/MainPage'
 
 function App() {
-
   return (
     <>
-      <div className="name">
-      <h1>Aron</h1>
-      </div>
-      <div className="title">
-        <p>
-          Developing Notes.
-        </p>
+      <div className="app_container">
+        <MainPage />
       </div>
     </>
   )
