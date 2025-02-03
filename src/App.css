@@ -1,6 +1,10 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+
+.name_eng_container {
+  background-color: var(--winter-cool-cold-blue);
 }
+
+.name_kr_container {
+  background-color: var(--winter-cool-cold-blue);
+}
+
