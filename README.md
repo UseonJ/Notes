@@ -1,50 +1,25 @@
-# React + TypeScript + Vite
+# 이 페이지의 목적
+  1. 저의 관심사와 해왔던 일에 대해 더 즐거운 방식으로 밀도있게 공유하고 싶은 마음에 만들게 되었습니다.
+  2. 개발자로서, 한 개인으로서 매일 성장할 수 있는 구심점으로 삼으려고 합니다. 부족하지만 많은 응원 부탁드립니다.
+  3. (...ing) 피드백을 통해 아쉬운 마음과 응원의 메세지를 남길 수 있도록 할 예정입니다. 3초의 관심으로 저에게 긍정적인 에너지를 더해주세요.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# v0.1.0
+  1. 개발환경
+  - Typescript + React + tailwindcss를 이용하여 개발하기로 결정하였습니다.
+  - Typescript와 React 사용은 익숙한 편이지만 tailwindcss에 대해 궁금하기도 하였던 터라 익숙한 styled-components는 잠시 접어두고 새로운 css 라이브러리를 사용해보고 싶었습니다.
+  - LLM에 대한 의존도를 낮추고 스스로 찾아서 공부해가면서 새로운 stack들을 익히고 웹 서비스를 만드는 과정 중 필수적이라고 생각되는 부분은 기획단계부터 스스로 전부 수행하기로 하였습니다.
 
-Currently, two official plugins are available:
+  2. 디자인 패턴에 대한 고민
+  - FSD가 유행이라는 말에 서치해보고 적용해보고 싶었지만 프로젝트 규모에 과하다는 고민이 있습니다.
+  - atomic design 역시 엄격하게 적용하는 것에 대한 고민이 들어 프로젝트 구조에 대한 고민이 듭니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# v0.1.1
+  1. "오늘도 개발자가 안된다고 말했다"라는 서적을 참고하여 기획, 디자인을 약식으로나마 진행.
+  - 기획서(IA) : 페이지 간 이동, 상세 내용을 위한 팝업 기능, (추후) 피드백을 위한 피드백 전송 기능, 플레이어블 한 데이터 임시저장기능 / 링크 : https://docs.google.com/spreadsheets/d/1Fqw6afEyY2QsQlMX2jQJhovolquU4oQmPJxcRQkGkp8/edit?usp=sharing  
+  - 유저 Flow Chart : playable한 부분을 제외하고 정보전달 버젼의 flow chart부터 작성 / 링크 : 
+  - 디자인 : 현재 디자인의 중요도가 높지 않으므로 간단하게 가져다 쓸 수 있는 라이브러리 등 오픈소스 활용  
+  2. 내용을 꼼꼼하게 채운 뒤, playable한 버젼으로 업그레이드 할 계획이다.
+  3. 기획 및 디자인 된 내용대로 개발에 착수
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+# v0.1.2
+  1. 
