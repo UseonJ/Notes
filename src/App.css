@@ -1,14 +1,46 @@
+@font-face {
+    font-family: 'YESMyoungjo-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/YESMyoungjo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.font-yesmyoungjo {
+  font-family: 'YESMyoungjo-Regular', sans-serif;
+}
+
 .root {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
 }
 
-.name_eng_container {
-  background-color: var(--winter-cool-cold-blue);
+.main_cover_photo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
 }
 
-.name_kr_container {
-  background-color: var(--winter-cool-cold-blue);
+.app_container {
+  margin-top: 100px;
+}
+
+.nickname_container {
+  background-color: var(--winter-cool-icy-blue);
+}
+
+.nickname {
+  padding: 10px 20px;
+}
+
+.content_container {
+  margin: 20px;
+  background-color: var(--winter-cool-icy-blue);
+}
+
+.content {
+  padding: 10px 20px;
 }
 

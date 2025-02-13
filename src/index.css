@@ -14,3 +14,8 @@
   --winter-cool-deep-purple: #4B0082;
   --winter-cool-white: #FFFFFF;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
